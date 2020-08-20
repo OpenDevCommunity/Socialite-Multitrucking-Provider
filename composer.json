@@ -1,0 +1,19 @@
+{
+    "name": "odc/multitrucking-provider",
+    "description": "Official MultiTrucking IPB OAuth provider for Laravel Socialite",
+    "require": {
+	    "php": "^7.2",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^3.5"
+    },
+    "psr-4": {
+        "SocialiteProviders\\MultiTrucking\\": ""
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Dev",
+            "email": "marek@marekdev.me"
+        }
+    ]
+}
