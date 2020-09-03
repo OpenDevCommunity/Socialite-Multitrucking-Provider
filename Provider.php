@@ -46,6 +46,11 @@ class Provider extends AbstractProvider {
         return json_decode($response->getBody(), true);
     }
 
+    protected function getFromConfig($arrayKey)
+    {
+        return app()['config']['services.multitrucking'][$arrayKey];
+    }
+
     /**
      * {@inheritdoc}
      */
